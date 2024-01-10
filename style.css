@@ -52,7 +52,62 @@
         height:500px;
         display:flex;
         flex-direction:column;
-    }
-    
+    } 
+}
+
+
+.photo{
+    margin-top:100px;
+}
+
+.image{
+   margin-right:20px;
+   padding:10px 10px; 
+}
+
+.frist-photo{
+    display:flex;
+    border:2px solid red;
+    border-radius:10px;
+    margin-bottom:30px;
     
 }
+
+.second-photo{
+    display:flex;
+    border:2px solid red;
+    border-radius:10px;
+}
+
+@media screen and (max-width:576px) {
+
+    .photo{
+        width:500px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .photo-con{
+        width:350px;
+        text-align: justify;
+
+    }
+    .frist-photo{
+        display:grid;
+        padding:20px;
+         
+    }
+    .second-photo{
+        display:grid;
+        padding:20px;
+    }
+
+    .inage{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+         
+    } 
+}
+
+ 
